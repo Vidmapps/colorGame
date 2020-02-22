@@ -1,0 +1,73 @@
+body {
+    background-color: #232323;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+button {
+    text-transform: uppercase;
+    border: transparent; 
+    padding: 5px;
+    font-size: 1em;
+    transition: all 0.3s;
+    outline: none;
+
+}
+
+.selected {
+    background-color: #0000FF;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0px auto;
+}
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20%;
+    transition: all 0.3s;
+
+}
+
+h1 {
+    color: white;
+}
+
+.loser {
+    background-color: #232323;
+}
+
+.header {
+    padding-top: 1%;
+    background: blue;
+    height: 200px;
+}
+
+#colorDisplay {
+    font-size: 1.5em;
+}
+
+.bar {
+    background: #fff;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blue;
+    text-align: center;
+}
+
+.result {
+    position: sticky;
+    text-align: center;
+}
+
